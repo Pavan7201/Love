@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  background-color: lightpink;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.gif {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.gif video {
+  width: 200px;
+  height: auto;
+  border-radius: 20px; 
+  box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+.question {
+  color: black;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button button {
+  position: relative;
+  background-color: white; 
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 2px 15px;
+  cursor: pointer;
+  border-radius: 5px; 
+  box-shadow: 10px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.button button:hover{
+  background-color: rgb(190, 143, 151);
+  padding: 12px 22px;
+}
