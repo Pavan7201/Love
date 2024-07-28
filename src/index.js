@@ -12,7 +12,7 @@ import Yes from './Yes';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/Love">
       <Routes>
         <Route path="/" element={<App/>}></Route>
         <Route path="/no1" element={<No1/>}></Route>

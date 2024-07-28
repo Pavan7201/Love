@@ -31,10 +31,10 @@ function App() {
           <div className='button'>
             {!Clicked? (
               <button onClick={handleYesClick}>Yes</button>
-            ) :(<h1></h1>)}
+            ) :(<h1>.</h1>)}
             {!clicked ? (
               <button onClick={handleNoClick}>No</button>
-            ) :(<h1></h1>)}
+            ) :(<h1>.</h1>)}
             </div>
         </div>
       </div>
