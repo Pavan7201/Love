@@ -1,6 +1,6 @@
 import './App.css';
 import gif from './cat4.mp4';
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef} from 'react';
 import {useNavigate} from 'react-router-dom';
 
 function No3() {

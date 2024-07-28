@@ -29,7 +29,7 @@ function App() {
         <div className='question'>
           <h1>Do you Love me❓  </h1>
           <div className='button'>
-            {!clicked ? (
+            {!Clicked? (
               <button onClick={handleYesClick}>Yes</button>
             ) :(<h1></h1>)}
             {!clicked ? (

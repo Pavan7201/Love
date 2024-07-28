@@ -28,7 +28,7 @@ function No2() {
           <h1>aak aur baar soch lo..!</h1>
           <p>kyu aise kar rahe ho?</p>
           <div className='button'>
-            {!clicked ? (
+            {!Clicked ? (
               <button onClick={handleYesClick}>Yes</button>
             ) :(<p></p>)}
             {!clicked ? (
